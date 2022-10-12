@@ -8,6 +8,7 @@ body{
     color:#000;
     line-height: 1.5;
     font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 a{
     text-decoration: none;
@@ -37,7 +38,7 @@ ul{
 }
 .main-menu li{
     padding-left: 30px;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin-bottom: 6px;
 }
 .main-menu li a{
@@ -55,4 +56,33 @@ ul{
 .side-menu li{
     padding-right: 30px;
     margin-bottom: 6px;
+}
+.btn{
+    border: 0px;
+    color: white;
+    background-color: #000;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.btn:hover{
+    background-color: #262626;
+}
+.showcase{
+    width: 100%;
+    height:420px;
+    background:url("/Images/slide1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 55px;
+}
+.showcase h2, .showcase p{
+    margin-bottom: 10px;
 }
